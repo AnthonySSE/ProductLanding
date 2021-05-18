@@ -30,4 +30,9 @@ li
     text-decoration: none;
     font-size: 17px;
     width: 16%;
+    display: block;
+}
+a:hover
+{
+    background-color: crimson;
 }
