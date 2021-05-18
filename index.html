@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/productlanding.css">
+    <title>Explorando God Of War</title>
+</head>
+<body>
+    <!--Historia de Usuario #1: 
+    Mi página de aterrizaje de producto debería tener un elemento header con un respectivo id="header".-->
+    <header id="header">
+        <!--Historia de Usuario #2: Puedo ver una imagen dentro del elemento header con un respectivo id="header-img". 
+        El logotipo de una empresa sería una buena opción de imagen aquí.-->
+        <img src="https://i.pinimg.com/originals/a3/28/e5/a328e57814b3409459bc6a7e222ac9b5.jpg" 
+        alt="God Of War logo.jpg" width="150px" height="75px" id="header-img">
+        <!--Historia de Usuario #3: 
+        Dentro del elemento #header puedo ver un elemento nav con un respectivo id="nav-bar".-->
+        <nav id="nav-bar">
+        <!--Historia de Usuario #4: 
+        Puedo ver al menos tres elementos en los que se puede hacer click dentro del elemento nav, 
+        cada uno con la clase nav-link.-->
+            <ul>
+                <!--Historia de Usuario #5: Cuando hago clic en un botón .nav-link en el elemento nav, 
+                soy llevado a la sección correspondiente de la página de aterrizaje.-->
+                <li class="nav-link"><a href="#">Inicio</a></li>
+                <li class="nav-link"><a href="#">Sobre Kratos</a></li>
+                <li class="nav-link"><a href="#">Historia</a></li>
+                <li class="nav-link"><a href="#">Armas</a></li>
+                <li class="nav-link"><a href="#">Enemigos</a></li>
+            </ul>
+            </nav>
+    </header>
+    <!--Historia de Usuario #6: Puedo ver un video de producto incrustado con id="video".-->
+    <iframe id="video" width="644" height="362" src="https://www.youtube.com/embed/qVdvpI6b6V0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--Historia de usuario #8: Mi página de aterrizaje tiene un elemento form con un respectivo id="form".-->
+    <form id="form" method="GET" action="https://www. reecodecamp.com/email-submit">
+    <!--Historia de Usuario #8: Dentro del formulario, 
+    hay un campo de entrada input con id="email" donde puedo introducir una dirección de correo electrónico.-->
+    <!--Historia de Usuario #9: El campo de entrada #email debe tener un texto provisional para que el usuario sepa para qué sirve el campo.-->
+    <!--Historia de Usuario #10: El campo de entrada #email utiliza la validación de HTML5 para confirmar que el texto introducido es una dirección de correo electrónico.-->
+        <input type="email" id="email" placeholder="Introduzca su correo">
+    <!--Historia de Usuario #11: Dentro del formulario, 
+    hay un input de envío con un respectivo id="submit".-->
+    <!--Historia de Usuario #12: Cuando hago clic en el elemento #submit, 
+    el correo electrónico se envía a una página estática (utiliza esta URL de pruebas: https://www. reecodecamp.com/email-submit).-->    
+    <input type="submit" id="submit" value="¡Empecemos!">
+    </form>
+    
+</body>
+</html>
