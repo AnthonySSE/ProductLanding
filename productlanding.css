@@ -3,36 +3,46 @@ Historia de Usuario #13: La barra de navegación debe estar siempre en la parte 
 Historia de Usuario #14: Mi página de aterrizaje de producto debería tener al menos una media query.
 Historia de Usuario #15: Mi página de aterrizaje de producto debería utilizar CSS flexbox al menos una vez.
 */
+*{
+margin: 0;
+}
+body
+{
+    background-color: #D0D0D0;
+}
+
 #header-img
 {
     float:left;
 }
 #nav-bar
 {
-    float: left;
-    position: relative;
-    width: 80%;
-    overflow: auto;
+    float: right;
+    width:100%;
     text-align: center;
+    background-color: black;
 }
 li
 {
     list-style: none;
     display: inline-block;
-    width: 16%;
-    transform-style: block;
+    width: 15%;
+    
 }
-#nav-bar a
-{
-    float: left;
-    color: red;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    width: 16%;
+li a {
     display: block;
-}
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    
+  }
 a:hover
 {
     background-color: crimson;
+}
+iframe
+{
+    padding-top: 100px;
+    align-items: center;
 }
