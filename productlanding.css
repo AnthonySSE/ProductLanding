@@ -21,6 +21,7 @@ body
     width:100%;
     text-align: center;
     background-color: black;
+    margin-bottom: 50px;
 }
 li
 {
@@ -43,6 +44,21 @@ a:hover
 }
 iframe
 {
-    padding-top: 100px;
     align-items: center;
+}
+h2
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+input[type=submit]
+{
+    display: block;
+    margin-bottom: 20px;
+}
+input
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
