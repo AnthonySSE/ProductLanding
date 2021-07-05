@@ -62,3 +62,13 @@ input
     margin-left: auto;
     margin-right: auto;
 }
+.Armas
+{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.EspadasDelCaos
+{
+    display: inline;
+    justify-content: center;
+}
